@@ -1,0 +1,31 @@
+.mainGame{
+    text-align: center;
+    position: relative;
+}
+
+table.maintable{
+    width: 15cm;
+    background-color:f9f7d9;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bolder;
+    font-size:20;
+    
+}
+
+#firstrow{
+    background-color:d54062 ;
+    height:2.5cm;
+}
+
+#secondrow{
+    background-color:ffa36c;
+    height:2.5cm;
+}
+
+#thirdrow{
+    background-color: ebdc87;
+    height:2.5cm;
+}

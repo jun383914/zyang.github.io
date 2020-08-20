@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="mainGame">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Welcome to Slide Number Puzzle Game!</h1>
+      <br />
+      <div id="maindiv">
+        <table class="maintable">
+          <div>
+            <tr id="firstrow">
+              <td id="00" class="tile1" onclick="clickcell(0,0)">3</td>
+              <td id="01" class="tile2" onclick="clickcell(0,1)"></td>
+              <td id="02" class="tile3" onclick="clickcell(0,2)"></td>
+            </tr>
+          </div>
+          <div>
+            <tr id="secondrow">
+              <td id="10" class="tile4" onclick="clickcell(1,0)"></td>
+              <td id="11" class="tile5" onclick="clickcell(1,1)"></td>
+              <td id="12" class="tile6" onclick="clickcell(1,2)"></td>
+            </tr>
+          </div>
+          <div>
+            <tr id="thirdrow">
+              <td id="20" class="tile7" onclick="clickcell(2,0)">1</td>
+              <td id="21" class="tile8" onclick="clickcell(2,1)"></td>
+              <td id="22" class="tile9" onclick="clickcell(2,2)"></td>
+            </tr>
+          </div>
+        </table>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
